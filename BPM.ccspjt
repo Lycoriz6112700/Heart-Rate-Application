@@ -1,0 +1,75 @@
+[PROJECT]
+Target=BPM.hex
+Processor_Text=PIC16F886
+CCSVersion=5.074
+Compiler=PCM
+[Target Data]
+FileList=BPM.c
+[BPM.c]
+Type=4
+[mru-list]
+1=BPM.c
+
+[defines]
+buildcount=122
+
+[ProjectLog]
+Days=3
+D1=08-03-2021
+D1_L=1
+D1_L1=[84048]Started Editing.
+D2=09-03-2021
+D2_L=18
+D2_L1=[1891]Stopped Editing.
+D2_L2=[1913]Started Editing.
+D2_L3=[2251]Stopped Editing.
+TotalEdit=126
+TotalDebug=0
+D2_E=74
+D2_D=0
+D2_L4=[2251]Project Closed.
+D2_L5=[2695]Project Opened.
+D2_L6=[5123]Started Editing.
+D2_L7=[5217]Stopped Editing.
+D2_L8=[5218]Project Closed.
+D2_L9=[75770]Project Opened.
+D2_L10=[75907]Started Editing.
+D2_L11=[76864]Stopped Editing.
+D2_L12=[77008]Started Editing.
+D2_L13=[77473]Stopped Editing.
+D2_L14=[77498]Started Editing.
+D2_L15=[79222]Stopped Editing.
+D2_L16=[82062]Started Editing.
+D2_L17=[84030]Stopped Editing.
+D2_L18=[84050]Started Editing.
+D3=10-03-2021
+D3_L=12
+D3_L1=[493]Stopped Editing.
+D3_L2=[561]Started Editing.
+D3_L3=[896]Stopped Editing.
+D3_L4=[1209]Started Editing.
+D3_L5=[1673]Stopped Editing.
+D3_L6=[2435]Started Editing.
+D3_L7=[3388]Project Opened.
+D3_L8=[3402]Started Editing.
+D3_L9=[6646]Stopped Editing.
+D3_L10=[6717]Started Editing.
+D3_L11=[6837]Stopped Editing.
+D3_E=52
+D3_D=0
+D3_L12=[6837]Project Closed.
+
+[Opened Files]
+1=BPM.c
+t1=237
+Count=3
+2=Test.c
+t2=133
+3=..\..\Downloads\Compressed\Pulse_Sensor_with_PIC_Code\pulse_Sensor.X\main.c
+t3=161
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=BPM (main)

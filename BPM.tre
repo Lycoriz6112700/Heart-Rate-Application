@@ -1,0 +1,15 @@
+ÀÄBPM
+   ÀÄMAIN  0/136  Ram=1
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄcalculate_heart_beat  0/299  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÃÄ@MUL1616  0/21  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÃÄ@MUL1616  0/21  Ram=5
+      ³  ÃÄ@DIV88  0/21  Ram=3
+      ³  ÀÄ@DIV1616  0/37  Ram=5
+      ÃÄ@PSTRINGCN7_9600_62_63  0/91  Ram=5
+      ÃÄ@PRINTF_U_9600_62_63  0/58  Ram=2
+      ³  ÃÄ@DIV88  0/21  Ram=3
+      ³  ÀÄ@DIV88  0/21  Ram=3
+      ÀÄ@delay_ms1  0/22  Ram=1

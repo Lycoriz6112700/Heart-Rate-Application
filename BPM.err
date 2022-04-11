@@ -1,0 +1,5 @@
+>>> Warning 203 "BPM.c" Line 264(1,1): Condition always TRUE
+>>> Warning 207 "BPM.c" Line 268(1,1): Code has no effect
+      Memory usage:   ROM=8%      RAM=11% - 13%
+      0 Errors,  2 Warnings.
+Build Successful.

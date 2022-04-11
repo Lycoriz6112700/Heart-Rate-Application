@@ -1,0 +1,106 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020-029 rate
+02A-02B sampleCounter
+02C-02D lastBeatTime
+02E-02F P
+030-031 T
+032-033 thresh
+034     amp
+035.0   firstBeat
+035.1   secondBeat
+035.2   Pulse
+035.3   QS
+036     BPM
+037-038 Signal
+039-03A IBI
+03B-03C N
+03D     runningTotal
+03E     i
+03F-040 adc_value
+041     @PRINTF_U_9600_62_63.P1
+041-042 calculate_heart_beat.adc_value
+041     @delay_ms1.P1
+041     @PSTRINGCN7_9600_62_63.P2
+041     MAIN.@SCRATCH1
+042     @PRINTF_U_9600_62_63.P1
+042     @PSTRINGCN7_9600_62_63.@SCRATCH1
+043     @DIV88.P1
+043     calculate_heart_beat.@SCRATCH1
+043     @PSTRINGCN7_9600_62_63.@SCRATCH2
+044-045 @DIV1616.P1
+044     @DIV88.P2
+044     calculate_heart_beat.@SCRATCH2
+044     @PSTRINGCN7_9600_62_63.@SCRATCH3
+045     calculate_heart_beat.@SCRATCH3
+045     @DIV88.@SCRATCH1
+045     @PSTRINGCN7_9600_62_63.@SCRATCH4
+046-047 @MUL1616.P1
+046-047 @DIV1616.P2
+048-049 @MUL1616.P1
+048     @DIV1616.@SCRATCH1
+04A     @MUL1616.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const632.call
+00000A  @DIV1616
+00002F  @MUL1616
+000044  @DIV88
+000059  calculate_heart_beat
+000184  @PSTRINGCN7_9600_62_63
+0001DF  @PRINTF_U_9600_62_63
+000219  @delay_ms1
+00022F  MAIN
+00022F  @cinit1
+000267  @cinit2
+
+Project Directory:
+    C:\Users\Apathy\Desktop\Lab Embbed\
+
+Project Files:
+    BPM.c                                                   [10-มี.ค.-21 01:52  CRC=1F73990E]
+    F:\PICC\Devices\16F886.h                                [21-ก.ค.-17 13:41  CRC=7107D019]
+
+Source signature=01833940
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=DE61
+
+Units:
+    BPM (main)
+
+Compiler Settings:
+    Processor:      PIC16F886
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   BPM.xsym
+    Errors:      BPM.err
+    Ext Symbols: BPM.esym
+    INHX8:       BPM.hex
+    Symbols:     BPM.sym
+    List:        BPM.lst
+    Debug/COFF:  BPM.cof
+    Project:     BPM.ccspjt
+    Call Tree:   BPM.tre
+    Statistics:  BPM.STA
